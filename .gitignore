@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+.Python
+
+# Django migrations
+**/migrations/
+!*/migrations/__init__.py  # Keep init if needed
+
+# Django SQLite database
+cloudproject/db.sqlite3
+
+# Static and media files (optional if generated or collected)
+**/staticfiles/
+**/media/
+**/static/
+
+# Sensitive or environment-specific files
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+*.pot
+*.pyc
+*.swp
+*.bak
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# MyPy and other tools
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# System-specific files
+.DS_Store
+Thumbs.db
